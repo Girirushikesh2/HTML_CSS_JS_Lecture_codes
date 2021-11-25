@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form autocomplete="on" method="get" target="_blank">
+        <fieldset>
+            <legend>Registeration Area</legend> 
+        <h2 style="text-align: center;">Employee Details</h2>
+        <label for="Fname">Enter your first name</label>
+        <input type="text" id=Fname name="Fname" placeholder="Rushikesh" required > <br><br>
+        <label>Enter your last name</label>
+        <input type="text" id="Lname" name="Lname" placeholder="Giri" required><br><br>
+        <label>Enter your Date of birth</label>
+        <input type="date" id="DOB" name="DOB"><br><br>
+        <label for ="CountryPef">Are you Indian</label> &nbsp; <br>
+        <lanbel>Yes</lanbel>
+        <input type="radio" id="radioBtn" name="Indian">
+        <lebel>No</lebel>
+        <input type="radio" id="NRI" name="Indian"><br><br>
+        <lebel for="Email">Enter your email</lebel>&nbsp;
+        <input type="text" id="Email" name="email" value="@gmail"><br><br>
+        <lebel for="Password">Enter your password</lebel>&nbsp
+        <input type="password" id="password" name="password">
+        <input type="hidden" id="RegID" name="RegID" value="1212"><br><br>
+        
+        
+        <div>
+            <lebel for="Phone">Enter your number</lebel>
+            <input type="tel" id="MobilePhone"  name="MobilePhone" pattern="[0-9]{10}">
+                   
+        
+        <div>
+        </fieldset><br>
+        <fieldset>
+            <legend>Tell us something</legend>
+            <label for="City" >Select your city</label>
+            <select id="City" name=City size="1">
+                <option value="Pune">Pune</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Amravati">Amravati</option>
+                <option value="Nagpur">Nagpur</option>
+            </select>
+        </div>
+        <div>
+        <input id =" First_vaccination"type="checkbox" name="Done with first Vaccination " value="First_vaccination">
+        <lebel for="First_vaccination">Done with first vaccination</lebel><br>
+        <input id =" Second_vaccination"type="checkbox" name="Done with second Vaccination " value="Second_vaccination">
+        <lebel for="Second_vaccination">Done with second vaccination</lebel>
+        <br><br>
+        <textarea name="Bio" rows="10" cols="25">
+            
+
+        </textarea><br>
+               <lebel for="myfile">Select a file</lebel>
+               <input type="file" id="file" name="file">
+             <br>
+             <label for="CabPickup">Select max area for pickup</label>
+             <input type="range" id="pickup" name="pickup" min="1" max="10">
+             </div>
+        <div>
+                 <button type="submit" value="submit" onclick="alert('Thanks for reaching us')">Submit</button>
+        </div>
+        </fieldset>
+     
+    </form>
+</body>
+</html>
