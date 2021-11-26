@@ -1,0 +1,61 @@
+
+/* Simple menu*/
+
+/*
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 205px;
+    background-color: whitesmoke;
+}
+
+li{
+    display: inline-block;
+}
+
+ a {
+    background-color: whitesmoke;
+    display: block;
+    width: 100px;
+    padding: 8px 16px;
+    text-decoration: none;
+
+}
+
+
+
+}
+li a:hover{
+    background-color: yellowgreen;
+    color: whitesmoke;
+}
+*/
+
+
+/* For horizontal */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: cornsilk;
+}
+

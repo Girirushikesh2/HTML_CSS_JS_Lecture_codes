@@ -1,0 +1,11 @@
+.Global{
+    background-color: blueviolet;
+    font-family: cursive;
+    font-weight: 20;
+}
+
+.Local{
+    background-color: chartreuse;
+    font-family: serif;
+    font-weight: 10;
+}

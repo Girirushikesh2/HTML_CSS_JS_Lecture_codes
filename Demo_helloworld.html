@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+</head>
+<body>
+    <h2>Getting started with Javascript</h2>
+    <button type="button" style="border-radius: 25px;"
+    onclick="document.getElementById('FirstParagraph').innerHTML='Hello World...'">Click here</button>
+    <p id="FirstParagraph">This is first paragraph</p>
+
+    <h2> Displaying current time using Javascript</h2>
+    <button type="button" style="border-radius: 40px;"
+    onclick="document.getElementById('SecondParagraph').innerHTML=Date()">Cick here to know time</button>
+    <p id="SecondParagraph">The time is </p>
+
+
+    <button type="button" style="border-radius: 40px;" 
+    onclick="document.getElementById('FirstParagraph').style.fontSize='60px'">Click here to change font</button>
+
+
+
+</body>
+</html>
